@@ -112,7 +112,11 @@ body {
 }
 
 .card {
-  width: 20rem;
+  width: 30rem;
+}
+
+.boton-card {
+  font-size: 1.6rem;
 }
 
 .container-formulario {
@@ -152,4 +156,21 @@ footer {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.container-experiencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem 0 2rem;
+}
+
+.experiencia-item {
+  background-color: rgb(23, 25, 173);
+  color: whitesmoke;
+  width: 60rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
 }
