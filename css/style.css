@@ -179,3 +179,15 @@ footer {
   margin-bottom: 2rem;
   border-radius: 1rem;
 }
+
+.iconos-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 3rem;
+  margin: 3rem 0 3rem 0;
+}
+.icono {
+  color: whitesmoke;
+}
