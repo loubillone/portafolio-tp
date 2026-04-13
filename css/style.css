@@ -22,10 +22,15 @@ html {
 
 body {
   font-size: 1.6rem;
+  background-image: radial-gradient(
+    circle farthest-corner at 50% 52.5%,
+    rgba(14, 53, 92, 1) 0%,
+    rgba(16, 14, 72, 1) 90%
+  );
 }
 
 .navegador {
-  background-color: grey;
+  background-color: rgb(23, 25, 173);
   height: 6rem;
   display: flex;
   justify-content: center;
@@ -44,8 +49,107 @@ body {
   text-decoration: none;
   margin: 0 5rem;
   font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .nav-item:hover {
-  color: rgb(154, 53, 53);
+  color: rgb(80, 78, 165);
+}
+
+.container-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem 0 2rem;
+}
+.titulo-seccion {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.hero-texto {
+  width: 60rem;
+}
+
+.hero-title {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.hero-description {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2rem;
+  text-align: justify;
+}
+
+.foto-perfil {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.filas-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem;
+  gap: 10rem;
+}
+
+.card {
+  width: 20rem;
+}
+
+.container-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario-contacto {
+  margin: 2rem;
+  background-color: rgb(23, 25, 173);
+  width: 40%;
+  padding: 5rem;
+  height: auto;
+  border-radius: 1rem;
+  color: whitesmoke;
+  font-size: 1.6rem;
+}
+
+.form-text {
+  color: whitesmoke;
+}
+
+.boton-formulario {
+  font-size: 1.8rem;
+}
+
+footer {
+  background-color: rgb(23, 25, 173);
+  color: whitesmoke;
+  height: 10rem;
+  margin-top: 5rem;
+}
+
+.texto-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
